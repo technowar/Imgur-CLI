@@ -1,0 +1,17 @@
+{
+  "name": "imgur-cli",
+  "version": "1.0.0",
+  "description": "Upload images to imgur",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Imgur"
+  ],
+  "author": "Johmel Rey Pintor",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "request": "^2.67.0"
+  }
+}

@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const commander = require('commander');
+
+commander
+	.version('1.0.0')
+	.description('Upload images to imgur');
+
+commander
+	.command('greet')
+	.description('Prints `Hi`')
+	.action(() => {
+		require('../lib/greet').sayHi();
+	});
+
+commander
+	.command('upload [image]')
+	.description('Upload image to imgur')
+	.action((image) => {
+		require('../lib/imgur').uploadImage(image);
+	});
+
+commander.parse(process.argv);
+
+if (!commander.args.length) {
+	commander.help();
+}
