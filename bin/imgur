@@ -15,6 +15,13 @@ commander
 		require('../lib/imgur').uploadImage(image);
 	});
 
+commander
+	.command('*')
+	.description('Wildcard command')
+	.action(() => {
+		commander.help();
+	});
+
 commander.parse(process.argv);
 
 if (!commander.args.length) {
