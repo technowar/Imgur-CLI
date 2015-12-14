@@ -1,10 +1,10 @@
 {
   "name": "imgur-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Upload images to imgur",
-	"bin": {
-		"imgur": "./bin/imgur"
-	},
+  "bin": {
+    "imgur": "./bin/imgur"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
