@@ -1,6 +1,6 @@
 {
   "name": "imgur-cli",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "description": "Upload images to imgur",
   "bin": {
     "imgur": "./bin/imgur"
