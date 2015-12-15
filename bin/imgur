@@ -17,7 +17,7 @@ commander
 
 commander
 	.command('watch [directory]')
-	.description('Watch directory for changes')
+	.description('Watch directory for changes. If left empty, it will automatically watch your Desktop')
 	.action((directory) => {
 		require('../lib/watch').watchFolder(directory);
 	});
