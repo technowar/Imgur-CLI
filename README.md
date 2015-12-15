@@ -18,4 +18,4 @@ Uploads image to [imgur](http://imgur.com)
 
 ### Requirements
 
-[Node.js](https://nodejs.org/en/) running v4.2.3+
+* ES2015
