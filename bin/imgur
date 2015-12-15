@@ -16,6 +16,13 @@ commander
 	});
 
 commander
+	.command('watch [directory]')
+	.description('Watch directory for changes')
+	.action((directory) => {
+		require('../lib/watch').watchFolder(directory);
+	});
+
+commander
 	.command('*')
 	.description('Wildcard command')
 	.action(() => {
