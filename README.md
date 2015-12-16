@@ -5,7 +5,7 @@ Uploads image to [imgur](http://imgur.com)
 ## Usage
 
 - To upload images using your CLI,
-	>`$ imgur uploads [image name]`
+	>`$ imgur upload [image name]`
 
 - To upload images automatically in the watched folder
 	>`$ imgur watch`
