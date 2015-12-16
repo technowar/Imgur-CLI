@@ -4,6 +4,9 @@ Uploads image to [imgur](http://imgur.com)
 
 ## Usage
 
+- Install globally
+	>`$ npm install imgur-cli -g`
+
 - To upload images using your CLI,
 	>`$ imgur upload [image name]`
 
