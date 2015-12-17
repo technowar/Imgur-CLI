@@ -10,19 +10,18 @@ Simple CLI application that upload images to [imgur](http://imgur.com).
 - To upload images using your CLI,
 	>`$ imgur upload [image name]`
 
-- To upload images automatically in the watched folder
-	>`$ imgur watch`
+- To upload images automatically in the listened folder
+	>`$ imgur listen`
 
-	Watches the Desktop
+	Listens the Desktop
 
-	>`$ imgur watch [path/to/directory]`
+	>`$ imgur listen [path/to/directory]`
 
-	Watches the set directory
+	Listens the set directory
 
 ### Requirements
 
-* ES2015
-
+* Node 4.x or latest
 
 ### To-do
 
@@ -31,6 +30,6 @@ Simple CLI application that upload images to [imgur](http://imgur.com).
 
 #### Disclaimer
 
-Not fully tested on all platforms especially with Windows.
+Will not run on Windows.
 
 Please do not hesitate to [open issues](https://github.com/technowar/Imgur-CLI/issues) and/or [contribute](https://github.com/technowar/Imgur-CLI/pulls).

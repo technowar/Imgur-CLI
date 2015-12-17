@@ -16,10 +16,10 @@ commander
 	});
 
 commander
-	.command('watch [directory]')
-	.description('Watch directory for changes. If left empty, it will automatically watch your Desktop')
+	.command('listen [directory]')
+	.description('Listen directory for changes. If left empty, it will automatically listen to your Desktop directory')
 	.action((directory) => {
-		require('../lib/watch').watchFolder(directory);
+		require('../lib/listen').listenFolder(directory);
 	});
 
 commander
