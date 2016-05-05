@@ -12,19 +12,19 @@ commander
 	.command('upload [image]')
 	.description('Upload image to imgur')
 	.action((image) => {
-		require('../lib/imgur').uploadImage(image);
+		require('../lib/imgur')(image);
 	});
 
 commander
 	.command('listen [directory]')
 	.description('Listen directory for changes. If left empty, it will automatically listen to your Desktop directory')
 	.action((directory) => {
-		require('../lib/listen').listenFolder(directory);
+		require('../lib/listen')(directory);
 	});
 
 commander
 	.command('*')
-	.description('Wildcard command')
+	.description('Fallback command')
 	.action(() => {
 		commander.help();
 	});
